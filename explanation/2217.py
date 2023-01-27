@@ -5,5 +5,5 @@ for _ in range(n):
 rope.sort()
 answer = []
 for i in range(n):
-    answer.append(rope[i] * (n-i))
+    answer.append(rope[i] * (len(rope)-i))
 print(max(answer))
